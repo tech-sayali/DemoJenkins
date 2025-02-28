@@ -12,4 +12,9 @@ public class Sample {
     public String getMsg(){
         return "Hello";
     }
+
+    @GetMapping
+    public String msg(){
+        return "Hii";
+    }    
 }
