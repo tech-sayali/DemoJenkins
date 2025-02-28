@@ -13,7 +13,7 @@ public class Sample {
         return "Hello";
     }
 
-    @GetMapping
+    @GetMapping("/get")
     public String msg(){
         return "Hii";
     }    
